@@ -40,11 +40,8 @@ AI-powered household load forecasting and smart energy management platform for I
 
 ## 📸 Screenshots
 
-*(Replace these placeholders with actual screenshots of the application)*
 
-*   `[Dashboard Snapshot]`
-*   `[Forecast Insights Charts]`
-*   `[Smart Recommendations Panel]`
+*   
 
 ## 🔮 Future Scope
 
