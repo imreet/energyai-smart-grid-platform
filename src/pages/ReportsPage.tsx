@@ -1,0 +1,1 @@
+export default function ReportsPage() { return <div className="text-white">Reports Page coming soon...</div>; }

@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+    --background: 0.97 0 0;
+    --foreground: 0.145 0 0;
+    --card: 1 0 0;
+    --card-foreground: 0.145 0 0;
+    --popover: 1 0 0;
+    --popover-foreground: 0.145 0 0;
+    --primary: 0.81 0.136 212;
+    --primary-foreground: 1 0 0;
+    --secondary: 0.94 0 0;
+    --secondary-foreground: 0.145 0 0;
+    --muted: 0.94 0 0;
+    --muted-foreground: 0.45 0 0;
+    --accent: 0.81 0.136 212;
+    --accent-foreground: 1 0 0;
+    --destructive: 0.634 0.237 25;
+    --destructive-foreground: 1 0 0;
+    --border: 0.88 0 0;
+    --input: 0.88 0 0;
+    --ring: 0.81 0.136 212;
+    --chart-1: 0.598 0.205 265;
+    --chart-2: 0.81 0.136 212;
+    --chart-3: 0.718 0.192 147;
+    --chart-4: 0.748 0.182 72;
+    --chart-5: 0.634 0.237 25;
+    --sidebar: 0.94 0 0;
+    --sidebar-foreground: 0.145 0 0;
+    --sidebar-primary: 0.81 0.136 212;
+    --sidebar-primary-foreground: 1 0 0;
+    --sidebar-accent: 0.88 0 0;
+    --sidebar-accent-foreground: 0.145 0 0;
+    --sidebar-border: 0.88 0 0;
+    --sidebar-ring: 0.81 0.136 212;
+  }
+
+  .dark {
+    --background: 0.108 0.018 248;
+    --foreground: 0.945 0.012 255;
+    --card: 0.155 0.028 248;
+    --card-foreground: 0.945 0.012 255;
+    --popover: 0.13 0.022 248;
+    --popover-foreground: 0.945 0.012 255;
+    --primary: 0.81 0.136 212;
+    --primary-foreground: 0.108 0.018 248;
+    --secondary: 0.178 0.032 248;
+    --secondary-foreground: 0.945 0.012 255;
+    --muted: 0.178 0.032 248;
+    --muted-foreground: 0.68 0.028 248;
+    --accent: 0.81 0.136 212;
+    --accent-foreground: 0.108 0.018 248;
+    --destructive: 0.634 0.237 25;
+    --destructive-foreground: 0.945 0.012 255;
+    --border: 0.945 0.012 255 / 6%;
+    --input: 0.945 0.012 255 / 10%;
+    --ring: 0.81 0.136 212;
+    --chart-1: 0.598 0.205 265;
+    --chart-2: 0.81 0.136 212;
+    --chart-3: 0.718 0.192 147;
+    --chart-4: 0.748 0.182 72;
+    --chart-5: 0.634 0.237 25;
+    --sidebar: 0.13 0.022 248;
+    --sidebar-foreground: 0.945 0.012 255;
+    --sidebar-primary: 0.81 0.136 212;
+    --sidebar-primary-foreground: 0.108 0.018 248;
+    --sidebar-accent: 0.155 0.028 248;
+    --sidebar-accent-foreground: 0.945 0.012 255;
+    --sidebar-border: 0.945 0.012 255 / 6%;
+    --sidebar-ring: 0.81 0.136 212;
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  }
+
+  html.dark body {
+    background-color: #0b0f14;
+    color: #e9eef6;
+  }
+}
